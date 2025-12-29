@@ -1,0 +1,209 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #e288de;
+  color: #222;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #005e2e;
+  margin-bottom: 10px;
+}
+
+
+nav ol {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  
+}
+
+nav ol li::after {
+  content: "/";
+  margin-left: 10px;
+  color: #777;
+}
+
+nav ol li:last-child::after {
+  content: "";
+}
+
+nav a {
+  color: #0056b3;
+ 
+}
+
+nav a:hover {
+ 
+}
+
+h2 {
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+h3 {
+  margin: 15px 0 8px;
+  color: #444;
+}
+
+
+section p {
+  margin-bottom: 10px;
+}
+
+
+ul,
+ol {
+  margin: 10px 0 15px 25px;
+}
+
+ul ul,
+ol ul,
+ul ol {
+  margin-top: 5px;
+}
+
+
+hr {
+  margin: 25px 0;
+  border: none;
+  border-top: 1px solid #aaa;
+}
+
+
+table {
+  width: 100%;
+  
+  margin-top: 10px;
+  background: white;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+th,
+td {
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: center;
+}
+
+thead th {
+  background: #2c7a7b;
+  color: #fff;
+}
+
+tfoot td {
+  background: #e6f2e6;
+  font-style: italic;
+}
+
+
+a {
+  color: #0074d9;
+}
+
+a:hover {
+  color: #ff4136;
+}
+
+img {
+  border-radius: 5px;
+  margin-top: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+audio,
+video {
+  display: block;
+  margin: 10px 0;
+  max-width: 100%;
+}
+
+
+form {
+  background: #f1fff1;
+  border: 1px solid #bcdcbc;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+fieldset {
+  border: 1px solid #88b388;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background: #2c7a7b;
+  color: white;
+}
+
+button[type="reset"] {
+  background: #aaaaaa;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #555;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Example</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body >
+
+<header>
+  <h1>C-11 Web Technologies — HTML Example</h1>
+  <p><strong>Unit 1:</strong> Web Essentials & HTML</p>
+  <p>We need to introduce&nbsp;&nbsp;Non-breaking space</p>
+</header>
+
+<nav aria-label="Breadcrumb">
+  <ol>
+    <li><a href="https://www.w3schools.com/colors/colors_picker.asp">W3School</a></li>
+    <li><a href="#">Unit 1</a></li>
+    <li>HTML Basics</li>
+  </ol>
+</nav>
+
+<hr>
+
+<section>
+  <h2>What is the Web?</h2>
+  <p style="color:red;">The web is a collection of web pages stored on servers. We use browsers to open these pages.</p>
+
+  <p>Pages are connected using hyperlinks.<br>
+     A line break tag (&lt;br&gt;) forces the next text onto a new line.</p>
+
+  <h3>Headings example</h3>
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
+
+  <h3>Text formatting</h3>
+  <p>This is <strong>bold</strong>, this is <em>italic</em>, and this is <small>small text</small>.</p>
+</section>
+
+<hr>
+
+<section>
+  <h2>Lists</h2>
+
+  <h3>Unordered list</h3>
+  <ul>
+    <li>HTML Basics</li>
+    <li>Headings &amp; paragraphs</li>
+    <li>Lists &amp; tables</li>
+  </ul>
+
+  <h3>Ordered list</h3>
+  <ol>
+    <li>Create index.html</li>
+    <li>Add content</li>
+    <li>Open in browser</li>
+  </ol>
+
+  <h3>Nested list</h3>
+  <ul>
+    <li>Fruits
+      <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+      </ul>
+    </li>
+    <li>Vegetables
+      <ol>
+        <li>Carrot</li>
+        <li>Spinach</li>
+      </ol>
+    </li>
+  </ul>
+</section>
+
+<hr>
+
+<section>
+  <h2>Tables</h2>
+
+  <table border="1" cellpadding="8" cellspacing="1">
+    <caption>Weekly Timetable</caption>
+
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>9–10</th>
+        <th>10–11</th>
+        <th>11–12</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr><td>Monday</td><td>Math</td><td>HTML</td><td>CSS</td></tr>
+      <tr><td>Tuesday</td><td>Science</td><td>Programming</td><td>CSS</td></tr>
+      <tr><td>Wednesday</td><td>English</td><td>Web Lab</td><td>CSS</td></tr>
+      <tr><td>Thursday</td><td>Computer</td><td>Web Technology</td><td>CSS</td></tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="4">Keep this timetable simple and clear.</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+<hr>
+
+<section>
+  <h2>Hyperlinks, Images & Multimedia</h2>
+
+  <p><a href="https://www.linkedin.com/" target="_blank" rel="noopener">Visit LinkedIn</a></p>
+
+  <p>Email: <a href="mailto:someone@example.com">Send email</a></p>
+
+  <img src="2.jpeg" alt="Sample image" width="300" height="500">
+</section>
+
+<hr>
+
+<section id="contact-form">
+  <h2>Forms</h2>
+
+  <form action="#" method="post">
+
+    <fieldset>
+      <legend>Contact Form</legend>
+
+      <label for="name">Name:</label><br>
+      <input id="name" name="name" type="text"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input id="email" name="email" type="email"><br><br>
+
+      <label>Gender:</label><br>
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label><br><br>
+
+      <label><input type="checkbox" name="html"> HTML</label><br>
+      <label><input type="checkbox" name="css"> CSS</label><br><br>
+
+      <label for="topic">Topic:</label>
+      <select id="topic" name="topic">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+      </select><br><br>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </fieldset>
+
+  </form>
+</section>
+
+<footer>
+  <p>Example file demonstrating core HTML elements.</p>
+</footer>
+
+</body>
+</html>
